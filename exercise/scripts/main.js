@@ -35,13 +35,13 @@ window.addEventListener('DOMContentLoaded', function() {
         card1.classList.remove('is-selected');
         card2.classList.remove('is-selected');
         selectedCards = [];
-        matchedCards.pop();
-        matchedCards.pop();
+    
       }
 
       // If we've matched all the cards, display a message.
-      if (matchedCards.length = cards.length) {
+      if (matchedCards.length >= cards.length) {
         return alert('You matched all the cards, nice job!');
+         
         
       }
     });
