@@ -14,7 +14,10 @@ body {
   font-family: Helvetica, sans-serif;
   font-size: 1.6rem;
 }
-
+h1{
+  text-align: center;
+  font-size: 9rem;
+}
 main {
   width: 90%;
   max-width: 90rem;
@@ -27,6 +30,7 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
+  
 }
 
 .card {
@@ -57,4 +61,12 @@ the background colour to white.
 .card.is-selected,
 .card.is-matched {
   background: #fff;
+}
+
+@media scren and (max-width:600px){
+  .cards{
+    width: 100%;
+
+  }
+  
 }
